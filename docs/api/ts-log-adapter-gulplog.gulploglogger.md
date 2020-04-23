@@ -12,13 +12,19 @@
 export declare class GulpLogLogger implements Logger 
 ```
 
-## Methods
+## Constructors
 
-|  Method | Modifiers | Description |
+|  Constructor | Modifiers | Description |
 |  --- | --- | --- |
-|  [debug(message, optionalParams)](./ts-log-adapter-gulplog.gulploglogger.debug.md) |  |  |
-|  [error(message, optionalParams)](./ts-log-adapter-gulplog.gulploglogger.error.md) |  |  |
-|  [info(message, optionalParams)](./ts-log-adapter-gulplog.gulploglogger.info.md) |  |  |
-|  [trace(message, optionalParams)](./ts-log-adapter-gulplog.gulploglogger.trace.md) |  |  |
-|  [warn(message, optionalParams)](./ts-log-adapter-gulplog.gulploglogger.warn.md) |  |  |
+|  [(constructor)(prefix)](./ts-log-adapter-gulplog.gulploglogger._constructor_.md) |  | Constructs a new instance of the <code>GulpLogLogger</code> class |
+
+## Properties
+
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [debug](./ts-log-adapter-gulplog.gulploglogger.debug.md) |  | <code>(message?: any, ...optionalParams: any[]) =&gt; void</code> |  |
+|  [error](./ts-log-adapter-gulplog.gulploglogger.error.md) |  | <code>(message?: any, ...optionalParams: any[]) =&gt; void</code> |  |
+|  [info](./ts-log-adapter-gulplog.gulploglogger.info.md) |  | <code>(message?: any, ...optionalParams: any[]) =&gt; void</code> |  |
+|  [trace](./ts-log-adapter-gulplog.gulploglogger.trace.md) |  | <code>(message?: any, ...optionalParams: any[]) =&gt; void</code> |  |
+|  [warn](./ts-log-adapter-gulplog.gulploglogger.warn.md) |  | <code>(message?: any, ...optionalParams: any[]) =&gt; void</code> |  |
 

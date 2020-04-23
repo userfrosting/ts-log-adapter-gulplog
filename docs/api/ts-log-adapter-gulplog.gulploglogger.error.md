@@ -2,22 +2,10 @@
 
 [Home](./index.md) &gt; [@userfrosting/ts-log-adapter-gulplog](./ts-log-adapter-gulplog.md) &gt; [GulpLogLogger](./ts-log-adapter-gulplog.gulploglogger.md) &gt; [error](./ts-log-adapter-gulplog.gulploglogger.error.md)
 
-## GulpLogLogger.error() method
+## GulpLogLogger.error property
 
 <b>Signature:</b>
 
 ```typescript
-error(message?: any, ...optionalParams: any[]): void;
+error: (message?: any, ...optionalParams: any[]) => void;
 ```
-
-## Parameters
-
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  message | <code>any</code> |  |
-|  optionalParams | <code>any[]</code> |  |
-
-<b>Returns:</b>
-
-`void`
-
