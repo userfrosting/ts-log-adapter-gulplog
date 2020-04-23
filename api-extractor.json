@@ -12,5 +12,6 @@
     },
     "docModel": {
         "enabled": true
-    }
+    },
+    "newlineKind": "lf"
 }
