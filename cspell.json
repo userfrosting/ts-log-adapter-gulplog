@@ -10,7 +10,8 @@
     "ignoreWords": [
         "preversion",
         "postversion",
-        "codecov"
+        "codecov",
+        "gulpfile"
     ],
     "ignorePaths": [
         "cspell.json",
