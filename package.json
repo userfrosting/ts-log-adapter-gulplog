@@ -20,7 +20,7 @@
         "build:release": "tsc && npm run aeCheck",
         "pretest": "npm run build",
         "test": "is-ci && ava || nyc --reporter=text ava",
-        "prepublishOnly": "npm run build:release && npm run test",
+        "prepublishOnly": "npm run build:release && ava",
         "version": "changelog-updater && git add CHANGELOG.md",
         "postversion": "git push && git push --tags"
     },
