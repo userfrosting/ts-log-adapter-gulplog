@@ -8,16 +8,17 @@ import { Logger } from 'ts-log';
 
 // @public
 export class GulpLogLogger implements Logger {
+    constructor(prefix?: string);
     // (undocumented)
-    debug(message?: any, ...optionalParams: any[]): void;
+    debug: (message?: any, ...optionalParams: any[]) => void;
     // (undocumented)
-    error(message?: any, ...optionalParams: any[]): void;
+    error: (message?: any, ...optionalParams: any[]) => void;
     // (undocumented)
-    info(message?: any, ...optionalParams: any[]): void;
+    info: (message?: any, ...optionalParams: any[]) => void;
     // (undocumented)
-    trace(message?: any, ...optionalParams: any[]): void;
+    trace: (message?: any, ...optionalParams: any[]) => void;
     // (undocumented)
-    warn(message?: any, ...optionalParams: any[]): void;
+    warn: (message?: any, ...optionalParams: any[]) => void;
 }
 
 

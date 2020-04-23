@@ -6,7 +6,7 @@
 import * as GulpLog from "gulplog";
 import { Logger } from "ts-log";
 
-function log(logFn: (...args: any[]) => void, message: any, args: any[]) {
+function log(prefix: string, logFn: (...args: any[]) => void, message: any, args: any[]) {
     // Handle args
     let processedArgs: null|string = null;
     if (args.length > 0) {
@@ -15,19 +15,19 @@ function log(logFn: (...args: any[]) => void, message: any, args: any[]) {
     }
 
     // Handle message
-    let processedMessage: string;
+    let processedMessage: string = prefix;
     if (typeof message === "string") {
         // All is well
-        processedMessage = message;
+        processedMessage += message;
     } else if (typeof message === "undefined") {
         // Make it clear the message is undefined
-        processedMessage = "(undefined)";
+        processedMessage += "(undefined)";
     } else if (message === null) {
         // Make it clear the message is null
-        processedMessage = "(null)";
+        processedMessage += "(null)";
     } else {
         // Final case, stringify it
-        processedMessage = JSON.stringify(message);
+        processedMessage += JSON.stringify(message);
     }
 
     if (processedArgs) {
@@ -44,23 +44,36 @@ function log(logFn: (...args: any[]) => void, message: any, args: any[]) {
  * @public
  */
 export class GulpLogLogger implements Logger {
-    trace(message?: any, ...optionalParams: any[]): void {
+    private prefix: string;
+
+    /**
+     * @param prefix - Optionally annotate logs with a prefix such as the package name to identify log source.
+     */
+    constructor(prefix?: string) {
+        if (prefix) {
+            this.prefix = `${prefix}: `;
+        } else {
+            this.prefix = "";
+        }
+    }
+
+    trace = (message?: any, ...optionalParams: any[]): void => {
         // Trace doesn't exist in gulplog so we need to note the actual log level and throw into debug
         function traceDecorate(message: any, ...args: any[]) {
-            GulpLog.debug(`TRACE: ${message}`, ...args);
+            GulpLog.debug(`TRACE ${message}`, ...args);
         }
-        log(traceDecorate, message, optionalParams);
+        log(this.prefix, traceDecorate, message, optionalParams);
     }
-    debug(message?: any, ...optionalParams: any[]): void {
-        log(GulpLog.debug, message, optionalParams);
+    debug = (message?: any, ...optionalParams: any[]): void => {
+        log(this.prefix, GulpLog.debug, message, optionalParams);
     }
-    info(message?: any, ...optionalParams: any[]): void {
-        log(GulpLog.info, message, optionalParams);
+    info = (message?: any, ...optionalParams: any[]): void => {
+        log(this.prefix, GulpLog.info, message, optionalParams);
     }
-    warn(message?: any, ...optionalParams: any[]): void {
-        log(GulpLog.warn, message, optionalParams);
+    warn = (message?: any, ...optionalParams: any[]): void => {
+        log(this.prefix, GulpLog.warn, message, optionalParams);
     }
-    error(message?: any, ...optionalParams: any[]): void {
-        log(GulpLog.error, message, optionalParams);
+    error = (message?: any, ...optionalParams: any[]): void => {
+        log(this.prefix, GulpLog.error, message, optionalParams);
     }
 }

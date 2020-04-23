@@ -18,6 +18,7 @@ test("The lot", t => {
     }
 
     const logger = new GulpLogLogger();
+    const loggerAnnotated = new GulpLogLogger("pkg");
 
     function createAssertions(logFn: (message?: any, ...optionalArgs: any[]) => void, gulpLogLevel: string, messagePrefix?: string) {
         messagePrefix = messagePrefix ?? "";
@@ -32,17 +33,22 @@ test("The lot", t => {
     }
 
     // Trace
-    createAssertions(logger.trace, "debug", "TRACE: ");
+    createAssertions(logger.trace, "debug", "TRACE ");
+    createAssertions(loggerAnnotated.trace, "debug", "TRACE pkg: ");
 
     // Debug
     createAssertions(logger.debug, "debug");
+    createAssertions(loggerAnnotated.debug, "debug", "pkg: ");
 
     // Info
     createAssertions(logger.info, "info");
+    createAssertions(loggerAnnotated.info, "info", "pkg: ");
 
     // Warn
     createAssertions(logger.warn, "warn");
+    createAssertions(loggerAnnotated.warn, "warn", "pkg: ");
 
     // Error
     createAssertions(logger.error, "error");
+    createAssertions(loggerAnnotated.error, "error", "pkg: ");
 });
