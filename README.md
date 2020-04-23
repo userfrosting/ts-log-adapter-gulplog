@@ -1,4 +1,4 @@
-# [gulp](https://github.com/gulpjs/gulp)-bundle-assets
+# ts-log-adapter-gulplog
 
 | Branch | Status |
 | ------ | ------ |
