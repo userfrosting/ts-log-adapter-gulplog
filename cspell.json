@@ -11,7 +11,8 @@
         "preversion",
         "postversion",
         "codecov",
-        "gulpfile"
+        "gulpfile",
+        "automerged"
     ],
     "ignorePaths": [
         "cspell.json",
