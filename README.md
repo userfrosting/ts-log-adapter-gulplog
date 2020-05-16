@@ -3,7 +3,6 @@
 | Branch | Status |
 | ------ | ------ |
 | master | [![Continuous Integration](https://github.com/userfrosting/ts-log-adapter-gulplog/workflows/Continuous%20Integration/badge.svg?branch=master)](https://github.com/userfrosting/ts-log-adapter-gulplog/actions?query=branch:master+workflow:"Continuous+Integration") [![codecov](https://codecov.io/gh/userfrosting/ts-log-adapter-gulplog/branch/master/graph/badge.svg)](https://codecov.io/gh/userfrosting/ts-log-adapter-gulplog/branch/master) |
-| develop | [![Continuous Integration](https://github.com/userfrosting/ts-log-adapter-gulplog/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://github.com/userfrosting/ts-log-adapter-gulplog/actions?query=branch:develop+workflow:"Continuous+Integration") [![codecov](https://codecov.io/gh/userfrosting/ts-log-adapter-gulplog/branch/develop/graph/badge.svg)](https://codecov.io/gh/userfrosting/ts-log-adapter-gulplog/branch/develop) |
 
 An adapter for the ts-log interface that pushes logging to gulplog.
 
