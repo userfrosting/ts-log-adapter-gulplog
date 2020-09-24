@@ -48,7 +48,7 @@
         "@microsoft/api-extractor": "^7.7.13",
         "@types/node": "^14.0.1",
         "ava": "^3.7.1",
-        "changelog-updater": "^1.1.0",
+        "changelog-updater": "^2.0.1",
         "del-cli": "^3.0.0",
         "glogg": "^1.0.2",
         "is-ci": "^2.0.0",
