@@ -1,10 +1,14 @@
 import test from "ava";
 import glogg from "glogg";
-import { GulpLogLogger } from "./main";
+import { GulpLogLogger } from "@userfrosting/ts-log-adapter-gulplog";
 
 const gloggChannel = glogg("gulplog");
 
-test("The lot", t => {
+test("Validate exports", t => {
+    t.assert(typeof GulpLogLogger === "function", "GulpLogLogger named export is wrong type");
+});
+
+test("Behavior", t => {
     function assert(testFn: () => void, expected: { event: string, message: string }) {
         let caught = false;
         function assess(event: any) {

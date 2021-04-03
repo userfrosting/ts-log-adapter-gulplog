@@ -3,7 +3,7 @@
  * @packageDocumentation
  */
 
-import * as GulpLog from "gulplog";
+import GulpLog from "gulplog";
 import { Logger } from "ts-log";
 
 function log(prefix: string, logFn: (...args: any[]) => void, message: any, args: any[]) {

@@ -17,7 +17,7 @@ npm i -D  @userfrosting/ts-log-adapter-gulplog
 ## Usage
 
 ```js
-// gulpfile.esm.js
+// gulpfile.mjs
 import { GulpLogLogger } from "@userfrosting/ts-log-adapter-gulplog";
 import { src, dest } from "gulp";
 import AssetBundler from "@userfrosting/gulp-bundle-assets";
@@ -67,22 +67,12 @@ $ gulp bundle
 
 ## API
 
-API documentation is regenerated for every release using [API Extractor](https://www.npmjs.com/package/@microsoft/api-extractor) and [API Documenter](https://www.npmjs.com/package/@microsoft/api-documenter).
-The results reside in [docs/api](./docs/api/index.md).
-
-## History
-
-The bulk of this adapter's logic came from build scripts in UserFrosting 4.2.
-
-## Release process
-
-Generally speaking, all releases should first traverse through `alpha`, `beta`, and `rc` (release candidate) to catch missed bugs and gather feedback as appropriate. Aside from this however, there are a few steps that **MUST** always be done.
-
-1. Make sure [`CHANGELOG.md`](./CHANGELOG.md) is up to date.
-2. Update version via `npm` like `npm version 3.0.0` or `npm version patch`.
-3. `npm publish`.
-4. Create release on GitHub from tag made by `npm version`.
+See [docs/api](./docs/api/index.md).
 
 ## License
 
 [MIT](LICENSE)
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md).

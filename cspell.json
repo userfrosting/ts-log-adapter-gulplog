@@ -5,18 +5,22 @@
     "words": [
         "Mele",
         "userfrosting",
-        "gulplog"
+        "gulplog",
+        "Lando",
+        "PNPM"
     ],
     "ignoreWords": [
         "preversion",
         "postversion",
         "codecov",
         "gulpfile",
-        "automerged"
+        "automerged",
+        "lcovonly"
     ],
     "ignorePaths": [
         "cspell.json",
         "package-lock.json",
+        "pnpm-lock.yaml",
         "api-extractor.json",
         "docs/api/",
         "dist/",
