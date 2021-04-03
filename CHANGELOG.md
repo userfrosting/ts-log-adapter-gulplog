@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.3.0] - 2021-04-03
+
 ### Changed
 - Removed `esm` loader in favour of native ESM support.
 - Raised minimum NodeJS version from 10 to 12.17.0.

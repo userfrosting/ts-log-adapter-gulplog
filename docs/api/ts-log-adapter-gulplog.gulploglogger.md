@@ -11,6 +11,7 @@
 ```typescript
 export declare class GulpLogLogger implements Logger 
 ```
+<b>Implements:</b> Logger
 
 ## Constructors
 
@@ -22,9 +23,9 @@ export declare class GulpLogLogger implements Logger
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [debug](./ts-log-adapter-gulplog.gulploglogger.debug.md) |  | <code>(message?: any, ...optionalParams: any[]) =&gt; void</code> |  |
-|  [error](./ts-log-adapter-gulplog.gulploglogger.error.md) |  | <code>(message?: any, ...optionalParams: any[]) =&gt; void</code> |  |
-|  [info](./ts-log-adapter-gulplog.gulploglogger.info.md) |  | <code>(message?: any, ...optionalParams: any[]) =&gt; void</code> |  |
-|  [trace](./ts-log-adapter-gulplog.gulploglogger.trace.md) |  | <code>(message?: any, ...optionalParams: any[]) =&gt; void</code> |  |
-|  [warn](./ts-log-adapter-gulplog.gulploglogger.warn.md) |  | <code>(message?: any, ...optionalParams: any[]) =&gt; void</code> |  |
+|  [debug](./ts-log-adapter-gulplog.gulploglogger.debug.md) |  | (message?: any, ...optionalParams: any\[\]) =&gt; void |  |
+|  [error](./ts-log-adapter-gulplog.gulploglogger.error.md) |  | (message?: any, ...optionalParams: any\[\]) =&gt; void |  |
+|  [info](./ts-log-adapter-gulplog.gulploglogger.info.md) |  | (message?: any, ...optionalParams: any\[\]) =&gt; void |  |
+|  [trace](./ts-log-adapter-gulplog.gulploglogger.trace.md) |  | (message?: any, ...optionalParams: any\[\]) =&gt; void |  |
+|  [warn](./ts-log-adapter-gulplog.gulploglogger.warn.md) |  | (message?: any, ...optionalParams: any\[\]) =&gt; void |  |
 

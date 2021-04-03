@@ -16,5 +16,5 @@ constructor(prefix?: string);
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  prefix | <code>string</code> | Optionally annotate logs with a prefix such as the package name to identify log source. |
+|  prefix | string | Optionally annotate logs with a prefix such as the package name to identify log source. |
 

@@ -1,6 +1,6 @@
 {
     "name": "@userfrosting/ts-log-adapter-gulplog",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "An adapter for the ts-log interface that pushes logging to gulplog with optional arguments JSON encoded.",
     "funding": "https://opencollective.com/userfrosting",
     "type": "module",
