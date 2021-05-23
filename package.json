@@ -16,7 +16,6 @@
         "postversion": "git push && git push --tags",
         "version:changelogBump": "changelog-updater && git add CHANGELOG.md",
         "version:apiDocRefresh": "api-extractor run && api-documenter markdown -i ./temp -o ./docs/api && git add ./docs/api/*",
-        "prepare": "is-npm || npm i --package-lock-only",
         "release-readiness": "npm run release-readiness:cspell && npm run release-readiness:api-changes",
         "release-readiness:cspell": "cspell 'src/**' 'dist/**' 'docs/**' '*'",
         "release-readiness:api-changes": "npm run compile && api-extractor run"
