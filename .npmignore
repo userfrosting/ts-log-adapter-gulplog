@@ -18,3 +18,7 @@ tsconfig.json
 .vscode
 .pnpm-store
 .lando.yml
+pnpm-lock.yaml
+cspell.json
+CONTRIBUTING.md
+
