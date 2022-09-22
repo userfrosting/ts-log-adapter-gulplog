@@ -36,19 +36,19 @@
     },
     "dependencies": {
         "gulplog": "1.0.0",
-        "ts-log": "^2.2.3"
+        "ts-log": "^2.2.5"
     },
     "devDependencies": {
-        "@microsoft/api-documenter": "^7.12.16",
-        "@microsoft/api-extractor": "^7.13.2",
-        "@types/node": "^18.0.1",
-        "ava": "^4.0.0",
-        "c8": "^7.7.0",
+        "@microsoft/api-documenter": "^7.19.14",
+        "@microsoft/api-extractor": "^7.31.2",
+        "@types/node": "^18.7.18",
+        "ava": "^4.3.3",
+        "c8": "^7.12.0",
         "changelog-updater": "^2.0.2",
         "cspell": "^5.3.10",
         "del-cli": "^4.0.0",
         "glogg": "^1.0.2",
-        "typescript": "^4.2.3"
+        "typescript": "^4.8.3"
     },
     "engines": {
         "node": ">=14.0.0"
