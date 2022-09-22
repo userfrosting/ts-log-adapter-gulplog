@@ -13,7 +13,7 @@ declare module "glogg" {
     export default function getLogger(namespace?: string): Logger & import("events").EventEmitter;
 }
 
-// TODO Remove pending merging of https://github.com/gulpjs/gulplog/pull/12
+// TODO Remove pending resolution of https://github.com/gulpjs/gulplog/issues/15
 declare module "gulplog" {
     /**
      * Highest log level. Typically used for debugging purposes.
