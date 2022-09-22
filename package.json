@@ -35,7 +35,7 @@
         "url": "https://github.com/userfrosting/ts-log-adapter-gulplog/issues"
     },
     "dependencies": {
-        "gulplog": "1.0.0",
+        "gulplog": "2.0.0",
         "ts-log": "^2.2.5"
     },
     "devDependencies": {
@@ -46,8 +46,8 @@
         "c8": "^7.12.0",
         "changelog-updater": "^2.0.2",
         "cspell": "^5.3.10",
-        "del-cli": "^4.0.0",
-        "glogg": "^1.0.2",
+        "del-cli": "^5.0.0",
+        "glogg": "^2.0.0",
         "typescript": "^4.8.3"
     },
     "engines": {
