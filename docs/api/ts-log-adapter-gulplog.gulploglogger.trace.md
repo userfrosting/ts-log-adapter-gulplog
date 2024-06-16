@@ -4,7 +4,7 @@
 
 ## GulpLogLogger.trace property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 trace: (message?: any, ...optionalParams: any[]) => void;

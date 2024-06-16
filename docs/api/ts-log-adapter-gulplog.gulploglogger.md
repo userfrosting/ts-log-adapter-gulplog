@@ -6,26 +6,153 @@
 
 `gulplog` logging adapter.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 export declare class GulpLogLogger implements Logger 
 ```
-<b>Implements:</b> Logger
+**Implements:** Logger
 
 ## Constructors
 
-|  Constructor | Modifiers | Description |
-|  --- | --- | --- |
-|  [(constructor)(prefix)](./ts-log-adapter-gulplog.gulploglogger._constructor_.md) |  | Constructs a new instance of the <code>GulpLogLogger</code> class |
+<table><thead><tr><th>
+
+Constructor
+
+
+</th><th>
+
+Modifiers
+
+
+</th><th>
+
+Description
+
+
+</th></tr></thead>
+<tbody><tr><td>
+
+[(constructor)(prefix)](./ts-log-adapter-gulplog.gulploglogger._constructor_.md)
+
+
+</td><td>
+
+
+</td><td>
+
+Constructs a new instance of the `GulpLogLogger` class
+
+
+</td></tr>
+</tbody></table>
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [debug](./ts-log-adapter-gulplog.gulploglogger.debug.md) |  | (message?: any, ...optionalParams: any\[\]) =&gt; void |  |
-|  [error](./ts-log-adapter-gulplog.gulploglogger.error.md) |  | (message?: any, ...optionalParams: any\[\]) =&gt; void |  |
-|  [info](./ts-log-adapter-gulplog.gulploglogger.info.md) |  | (message?: any, ...optionalParams: any\[\]) =&gt; void |  |
-|  [trace](./ts-log-adapter-gulplog.gulploglogger.trace.md) |  | (message?: any, ...optionalParams: any\[\]) =&gt; void |  |
-|  [warn](./ts-log-adapter-gulplog.gulploglogger.warn.md) |  | (message?: any, ...optionalParams: any\[\]) =&gt; void |  |
+<table><thead><tr><th>
 
+Property
+
+
+</th><th>
+
+Modifiers
+
+
+</th><th>
+
+Type
+
+
+</th><th>
+
+Description
+
+
+</th></tr></thead>
+<tbody><tr><td>
+
+[debug](./ts-log-adapter-gulplog.gulploglogger.debug.md)
+
+
+</td><td>
+
+
+</td><td>
+
+(message?: any, ...optionalParams: any\[\]) =&gt; void
+
+
+</td><td>
+
+
+</td></tr>
+<tr><td>
+
+[error](./ts-log-adapter-gulplog.gulploglogger.error.md)
+
+
+</td><td>
+
+
+</td><td>
+
+(message?: any, ...optionalParams: any\[\]) =&gt; void
+
+
+</td><td>
+
+
+</td></tr>
+<tr><td>
+
+[info](./ts-log-adapter-gulplog.gulploglogger.info.md)
+
+
+</td><td>
+
+
+</td><td>
+
+(message?: any, ...optionalParams: any\[\]) =&gt; void
+
+
+</td><td>
+
+
+</td></tr>
+<tr><td>
+
+[trace](./ts-log-adapter-gulplog.gulploglogger.trace.md)
+
+
+</td><td>
+
+
+</td><td>
+
+(message?: any, ...optionalParams: any\[\]) =&gt; void
+
+
+</td><td>
+
+
+</td></tr>
+<tr><td>
+
+[warn](./ts-log-adapter-gulplog.gulploglogger.warn.md)
+
+
+</td><td>
+
+
+</td><td>
+
+(message?: any, ...optionalParams: any\[\]) =&gt; void
+
+
+</td><td>
+
+
+</td></tr>
+</tbody></table>

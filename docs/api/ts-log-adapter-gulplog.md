@@ -8,7 +8,26 @@ An adapter for the ts-log interface that pushes logging to gulplog with optional
 
 ## Classes
 
-|  Class | Description |
-|  --- | --- |
-|  [GulpLogLogger](./ts-log-adapter-gulplog.gulploglogger.md) | <code>gulplog</code> logging adapter. |
+<table><thead><tr><th>
 
+Class
+
+
+</th><th>
+
+Description
+
+
+</th></tr></thead>
+<tbody><tr><td>
+
+[GulpLogLogger](./ts-log-adapter-gulplog.gulploglogger.md)
+
+
+</td><td>
+
+`gulplog` logging adapter.
+
+
+</td></tr>
+</tbody></table>

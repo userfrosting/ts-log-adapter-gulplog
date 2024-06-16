@@ -6,7 +6,26 @@
 
 ## Packages
 
-|  Package | Description |
-|  --- | --- |
-|  [@userfrosting/ts-log-adapter-gulplog](./ts-log-adapter-gulplog.md) | An adapter for the ts-log interface that pushes logging to gulplog with optional arguments JSON encoded. |
+<table><thead><tr><th>
 
+Package
+
+
+</th><th>
+
+Description
+
+
+</th></tr></thead>
+<tbody><tr><td>
+
+[@userfrosting/ts-log-adapter-gulplog](./ts-log-adapter-gulplog.md)
+
+
+</td><td>
+
+An adapter for the ts-log interface that pushes logging to gulplog with optional arguments JSON encoded.
+
+
+</td></tr>
+</tbody></table>

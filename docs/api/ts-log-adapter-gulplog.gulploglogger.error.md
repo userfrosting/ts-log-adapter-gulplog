@@ -4,7 +4,7 @@
 
 ## GulpLogLogger.error property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 error: (message?: any, ...optionalParams: any[]) => void;
