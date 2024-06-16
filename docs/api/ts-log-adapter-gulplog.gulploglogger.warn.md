@@ -4,7 +4,7 @@
 
 ## GulpLogLogger.warn property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 warn: (message?: any, ...optionalParams: any[]) => void;

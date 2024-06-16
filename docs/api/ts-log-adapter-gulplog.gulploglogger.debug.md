@@ -4,7 +4,7 @@
 
 ## GulpLogLogger.debug property
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 debug: (message?: any, ...optionalParams: any[]) => void;

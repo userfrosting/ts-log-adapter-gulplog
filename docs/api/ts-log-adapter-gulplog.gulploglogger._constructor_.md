@@ -6,7 +6,7 @@
 
 Constructs a new instance of the `GulpLogLogger` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 constructor(prefix?: string);
@@ -14,7 +14,36 @@ constructor(prefix?: string);
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  prefix | string | Optionally annotate logs with a prefix such as the package name to identify log source. |
+<table><thead><tr><th>
 
+Parameter
+
+
+</th><th>
+
+Type
+
+
+</th><th>
+
+Description
+
+
+</th></tr></thead>
+<tbody><tr><td>
+
+prefix
+
+
+</td><td>
+
+string
+
+
+</td><td>
+
+_(Optional)_ Optionally annotate logs with a prefix such as the package name to identify log source.
+
+
+</td></tr>
+</tbody></table>
