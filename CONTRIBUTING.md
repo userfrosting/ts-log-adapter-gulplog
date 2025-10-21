@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-To start, you'll need NodeJS 14 or [Lando](https://lando.dev/) installed (prefix commands with `lando`).
+To start, you'll need NodeJS 22.
 
 The development and release process heavily lean into common NPM scripts, the only commands you need to care about are;
 
