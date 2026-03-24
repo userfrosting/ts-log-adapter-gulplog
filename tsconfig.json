@@ -1,8 +1,8 @@
 {
     "$schema": "http://json.schemastore.org/tsconfig",
     "compilerOptions": {
-        "module": "es2015",
-        "moduleResolution": "node",
+        "module": "node16",
+        "moduleResolution": "node16",
         "lib": [
             "es2015"
         ],
@@ -10,6 +10,7 @@
         "noEmitHelpers": true,
         "declaration": true,
         "target": "es2017",
+        "rootDir": "./src",
         "outDir": "./dist/",
         "sourceMap": true,
         "strict": true,
@@ -18,6 +19,9 @@
         // TODO Remove once self-referencing supported https://github.com/microsoft/TypeScript/issues/38675
         "paths": {
             "@userfrosting/ts-log-adapter-gulplog": [ "./src/main" ]
-        }
+        },
+        "types": [
+            "node"
+        ]
     }
 }
