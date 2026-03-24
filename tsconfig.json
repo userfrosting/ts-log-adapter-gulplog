@@ -19,6 +19,9 @@
         // TODO Remove once self-referencing supported https://github.com/microsoft/TypeScript/issues/38675
         "paths": {
             "@userfrosting/ts-log-adapter-gulplog": [ "./src/main" ]
-        }
+        },
+        "types": [
+            "node"
+        ]
     }
 }
