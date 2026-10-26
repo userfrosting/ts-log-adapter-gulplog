@@ -46,7 +46,7 @@
         "c8": "^12.0.0",
         "changelog-updater": "^2.0.2",
         "cspell": "^10.0.0",
-        "del-cli": "^7.0.0",
+        "del-cli": "^8.0.1",
         "glogg": "^2.0.0",
         "typescript": "^7.0.2"
     },
